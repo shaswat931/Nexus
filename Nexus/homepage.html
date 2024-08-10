@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS - Your IT Partner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="nexus logo.jpg" alt="NEXUS Logo" class="custom-logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#auth">Login/Register</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home">
+        <div class="hero-content">
+            <h1>Empowering Your Digital Future</h1>
+            <p>Your Partner in Digital Transformation</p>
+            <button id="get-started-btn">Get Started</button>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home-section">
+        <h2>Welcome to NEXUS</h2>
+        <p>At NEXUS, we are dedicated to providing top-notch IT solutions that drive your business forward. Our expertise in web development, mobile app development, and other IT services ensures that your digital presence is robust and effective.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>NEXUS is a startup focused on delivering innovative IT services to businesses of all sizes. Our mission is to empower companies through cutting-edge technology and personalized service. We value integrity, excellence, and teamwork, striving to exceed our clients' expectations in every project.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <i class="service-icon">🌐</i>
+            <h3>Web Development</h3>
+            <p>We create stunning and responsive websites tailored to your business needs.</p>
+        </div>
+        <div class="service">
+            <i class="service-icon">📱</i>
+            <h3>Mobile App Development</h3>
+            <p>Our team develops user-friendly mobile apps for both Android and iOS platforms.</p>
+        </div>
+        <div class="service">
+            <i class="service-icon">☁️</i>
+            <h3>Cloud Solutions</h3>
+            <p>We offer scalable cloud solutions that enhance your business operations and data security.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Work</h2>
+        <div class="portfolio-item">
+            <img src="Annotation LOGO.png" alt="Project 1">
+            <p>Project 1 description...</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="nexus logo.jpg" alt="Project 2">
+            <p>Project 2 description...</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project3.jpg" alt="Project 3">
+            <p>Project 3 description...</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="70c14918-81cb-4896-a629-9315dc1cbef0">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Auth Section -->
+    <section id="auth">
+        <div class="auth-container">
+            <div class="tab">
+                <button class="tablinks" onclick="openForm(event, 'Login')" id="defaultOpen">Login</button>
+                <button class="tablinks" onclick="openForm(event, 'Register')">Register</button>
+            </div>
+
+            <div id="Login" class="tabcontent">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" name="email" required>
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+            <div id="Register" class="tabcontent">
+                <h2>Register</h2>
+                <form id="register-form">
+                    <label for="register-name">Fast-Name:</label>
+                    <input type="text" id="register-name" name="fast-name" required>
+                    <label for="register-name">Last-Name:</label>
+                    <input type="text" id="register-name" name="Last-name" required>
+                    <label for="register-Address">Address:</label>
+                    <input type="Address" id="register-Addrerss" name="Address" required>
+                    <label for="register-Contact_Us">Contact_No</label>
+                     <input type="Contact_us" id="register-Contact_Us" name="Contact_Us" required>
+                    <label for="register-email">Email:</label>
+                    <input type="email" id="register-email" name="email" required>
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" name="password" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <h3>This Website Create By Shaswat_shukla </h3>
+    <h3>This is my contact-No:-<b>8097618731</b></h3>
+   <b><a href="https://www.instagram.com/shaswat_shukla.96?igsh=MXhlczY4Y3VocGttYg==">instragram profile</a></b>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 NEXUS. All rights reserved.</p>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
